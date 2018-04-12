@@ -1,0 +1,42 @@
+npm init - Create package.json and we see node_modules being installed on t
+
+git config --global user.email
+
+
+failed to push some refs to 
+
+git pull --rebase origin master
+git push origin master
+That way, you would replay (the --rebase part) your local commits on top of the newly updated origin/master (or origin/yourBranch: git pull origin yourBranch).
+
+See a more complete example in the chapter 6 Pull with rebase of the Git Pocket Book.
+
+I would recommend a:
+
+git push -u origin master
+
+-----------------------
+
+git init
+git add .
+git commit -m "Initial commit"
+
+git remote add origin <repo-address>
+git push -u origin master
+
+
+npm install
+npm start
+
+
+npm install - Causing issues. Deleted npm files from temp directory. 
+
+http://dm.gl/2015/11/26/wallaby-for-visual-studio-code/
+
+contains emphasized items - 
+npm update --save typescript
+
+Interpolation binding - one way binding from component to the view.
+
+
+can't bind to 'ngmodel' since it isn't a known property of 'input' angular 2 - IMported FormsModule from @angular/forms and configured ngModel to import FormsModule.
