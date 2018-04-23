@@ -5,3 +5,5 @@
   <p [style.color] = 'PSColor'> This is a course from {{ source }} </p>
   <input type="text" [value]="name" (keyup.enter) = 'name = $event.target.value' placeholder="On Enter">  <!-- Not preferred, instead use ngModel. --> 
   <input type="text" [(ngModel)] = "name" placeholder="On change (ng-model)">
+
+<customers></customers>

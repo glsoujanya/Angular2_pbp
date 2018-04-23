@@ -40,3 +40,56 @@ Interpolation binding - one way binding from component to the view.
 
 
 can't bind to 'ngmodel' since it isn't a known property of 'input' angular 2 - IMported FormsModule from @angular/forms and configured ngModel to import FormsModule.
+
+Emmet plugin - shortcuts for HTML
+
+ngOnInit method imported from OnInit class which is imported from @angular/core. 
+
+constructor vs ngOnInit - constructor is used for DI and initializing values. 
+
+ngOnInit - Once all dependencies are resolved and data-bound properties are initialzed and set with values (in short, after constructor is called), ngOnInit is called and the directive/component's properties are set. 
+
+for loop - #x of list is replaced by let x of list.
+
+Input properties and Output events : 
+@Input - decorator, gives info about meta-data. 
+@Output
+
+System.js : __moduleName
+
+Cannot find start/ module.js error - rm -rf ./node_modules (replaced rm by del since I am on Windows OS). Then did an npm install and npm start. 
+
+A good read - https://medium.com/@cyrilletuzi/understanding-angular-modules-ngmodule-and-their-scopes-81e4ed6f7407
+
+moduleid/__modulename provided by System.js to specify a path relative to the component class.
+
+constructor of the class - declare a private variable and specify the type. In run time, a variable of specified type is instantiated. 
+
+Hierarchal dependency injection - The lowest level component looks for the parent component and sees if it has the injected service it's looking out for and so on. Singleton pattern is followed while injecting services. No matter how many ever times the service is imported, only one instance of it prevails. 
+
+HTTP_Providers deprecated - replaced by HTTPModules.
+
+Observables - provides a series of operators that operate on streams (like http data streams)
+
+
+
+------------------
+Argument of type '(response: Response) => void' is not assignable to parameter of type '(value: Response) => void'.
+Types of parameters 'response' and 'value' are incompatible.
+Type 'Response' is not assignable to type 'Response'. Two different types with this name exist, but they are unrelated.
+Property 'body' is missing in type 'Response'.
+
+import response from angular/http.
+------------------
+
+json
+
+ng g service service_folder (g : generate)
+ng g component component_folder
+
+
+https://jsonplaceholder.typicode.com/ - Fake Online REST API for Testing and Prototyping 
+powered by JSON Server and lowdb
+
+
+ 
